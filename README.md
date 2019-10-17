@@ -51,15 +51,15 @@ AppUserId will be passed on from the ad server to your pre-registered server to 
 
 a) We recommend to pre-cache ads using the method:
 
-    GuruTraff.cacheVideo("placementId");
+    GuruTraff.cacheVideo("placementName");
 
 b) You can check whether cached ads are available using the method:
 
-    GuruTraff.isReadyVideo("placementId");
+    GuruTraff.isReadyVideo("placementName");
 
 c) You can show ads using the method:
 
-    GuruTraff.showVideo("placementId");
+    GuruTraff.showVideo("placementName");
 
 d) To track changes in the advertising states (conditions), you can pass the listener IGuruTraffListener.
 - videoDidCache;			          //resources were cached for displaying video ads
