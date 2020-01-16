@@ -75,6 +75,7 @@ d) To track changes in the advertising states (conditions), you can pass the lis
 Possible errors while loading ads:
 - ErrorNoAds - no ads available
 - ErrorNoFreeDiskSpace - there is no space on the disk
+- NoConnectionToServer - no connection to our server
         
 Note:
 It is possible not to cache the advertisement in advance, but in this case, it is impossible to predict when it will be loaded and displayed.
